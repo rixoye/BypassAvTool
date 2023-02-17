@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LittleStringTools2.cpp">
+      <Filter>源码</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleStringTools2Dlg.cpp">
+      <Filter>主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CHideFunc.cpp">
+      <Filter>函数调用隐藏</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroduce.cpp">
+      <Filter>函数介绍页</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyHideString.cpp">
+      <Filter>字符串隐藏</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源码</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LittleStringTools2Dlg.h">
+      <Filter>主界面</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleStringTools2.h">
+      <Filter>源码</Filter>
+    </ClInclude>
+    <ClInclude Include="CHideFunc.h">
+      <Filter>函数调用隐藏</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroduce.h">
+      <Filter>函数介绍页</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyHideString.h">
+      <Filter>字符串隐藏</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>源码</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>源码</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>源码</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源码</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源码">
+      <UniqueIdentifier>{60dc6d80-4166-4b80-beb7-3e5b661c94b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主界面">
+      <UniqueIdentifier>{55193062-fb16-43b9-b4b9-f1fb836d94b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="函数调用隐藏">
+      <UniqueIdentifier>{64f2e45c-4384-4aeb-b60a-6526446d1907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="函数介绍页">
+      <UniqueIdentifier>{daf50a10-e666-41eb-aebb-94e982510993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="字符串隐藏">
+      <UniqueIdentifier>{5291a1d0-6006-4df7-a78d-b6088724fa98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LittleStringTools2.ico">
+      <Filter>源码</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LittleStringTools2.rc">
+      <Filter>源码</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LittleStringTools2.rc2">
+      <Filter>源码</Filter>
+    </None>
+  </ItemGroup>
+</Project>
